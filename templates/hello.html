@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+  <h3 class="mt-5">Live Streaming</h3>
+  <img src="{{ url_for('video_feed') }}" width="100%">
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
