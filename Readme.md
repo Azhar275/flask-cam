@@ -7,5 +7,6 @@
     - `Flask`
     - `ultralytics`
     - `supervision`
+    - `opencv-python`
 5. To set the flask app, run `set FLASK_APP=hello.py`
 6. Run the app using `flask run`
